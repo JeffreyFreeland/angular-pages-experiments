@@ -2,6 +2,12 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.4.
 
+# Deployment
+
+On the main branch, run `ng deploy --base-href=/angular-pages-experiments/`.
+
+This will build an application bundle, commit the bundle to the root of the gh-pages branch, and then trigger a deploy on Github Pages. The app will be available at `https://jeffreyfreeland.github.io/angular-pages-experiments/`, though it may take some time for the deploy to complete. 
+
 ## Development server
 
 To start a local development server, run:
